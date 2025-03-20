@@ -7,3 +7,4 @@ flask --app flaskr init-db
 
 # Starting Flask server
 flask --app flaskr run
+

@@ -3,6 +3,9 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <nav>
   <h1>Flaskr</h1>
+  <a type="button" class="btn btn-light" href="{{ url_for('blog.index') }}">
+    Blog
+  </a>
   <a type="button" class="btn btn-light" href="{{ url_for('contact.index') }}">
     Contact
   </a>

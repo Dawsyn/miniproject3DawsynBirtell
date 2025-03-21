@@ -13,10 +13,10 @@ pip install -r requirements.txt
 ```
 
 
-# Setup Database
+### Setup Database
 flask --app flaskr init-db
 
-# Starting Flask server
+### Starting Flask server
 flask --app flaskr run
 
 
